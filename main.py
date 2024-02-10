@@ -1,17 +1,17 @@
 from turtle import *
-hideturtle()
-speed(10)
-t1= Turtle()
-t2= Turtle()
-t3=Turtle()
+
+
+t1 = Turtle()
+t2 = Turtle()
+t3 = Turtle()
 
 t1.color('red')
 t2.color('green')
 t3.color('blue')
-t2.left(162)
-t3.left(270)
+t2.left(120)
+t3.left(240)
 
-for i in range(28):
+for i in range(36):
     t1.forward(10)
     t1.left(10)
 
@@ -20,6 +20,4 @@ for i in range(28):
 
     t3.forward(10)
     t3.left(10)
-
-exitonclick()
 
